@@ -1,29 +1,38 @@
 const courses = [
     {
-        id: "1",
-        title: "Excel Básico",
-        description: "Aprenda a dominar planilhas e fórmulas.",
-        instructor: "Carlos Silva",
-        category: "Excel & Planilhas",
-        price: 0,
-        duration_minutes: 120,
-        thumbnail_url: "https://via.placeholder.com/150",
-        level: "Iniciante",
-        total_students: 350,
-        rating: 4.8
+        id: 1,
+        title: "HTML e CSS para Iniciantes",
+        description: "Aprenda desenvolvimento web moderno do zero.",
+        price: 49.90,
+        image: "https://picsum.photos/400/250?random=1"
     },
     {
-        id: "2",
-        title: "Introdução à Programação",
-        description: "Conceitos fundamentais de lógica e código.",
-        instructor: "Ana Souza",
-        category: "Programação",
-        price: 59.9,
-        duration_minutes: 240,
-        thumbnail_url: "https://via.placeholder.com/150",
-        level: "Iniciante",
-        total_students: 500,
-        rating: 4.9
+        id: 2,
+        title: "JavaScript Completo",
+        description: "Tudo sobre JS, do básico ao avançado.",
+        price: 79.90,
+        image: "https://picsum.photos/400/250?random=2"
+    },
+    {
+        id: 3,
+        title: "React do Zero ao Avançado",
+        description: "Construa interfaces profissionais com React.",
+        price: 99.90,
+        image: "https://picsum.photos/400/250?random=3"
+    },
+    {
+        id: 4,
+        title: "Python Essencial",
+        description: "Domine lógica, automação e análise de dados.",
+        price: 59.90,
+        image: "https://picsum.photos/400/250?random=4"
+    },
+    {
+        id: 5,
+        title: "UX/UI Design Completo",
+        description: "Aprenda a criar interfaces incríveis.",
+        price: 89.90,
+        image: "https://picsum.photos/400/250?random=5"
     }
 ];
 
